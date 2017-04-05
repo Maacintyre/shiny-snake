@@ -86,11 +86,11 @@ public class Message {
     String buffer = "";
     buffer = buffer + Long.toString(mCar.getID()) + "/";
     buffer = buffer + mCar.getModel() + "/";
-    buffer = buffer + Float.toString(mCar.getDirection()) + "/";
-    buffer = buffer + Float.toString(mCar.getLongitude()) + "/";
-    buffer = buffer + Float.toString(mCar.getLatitude()) + "/";
-    buffer = buffer + Float.toString(mCar.getSpeed()) + "/";
-    buffer = buffer + Float.toString(mCar.getAcceleration()) + "/";
+    buffer = buffer + Double.toString(mCar.getDirection()) + "/";
+    buffer = buffer + Double.toString(mCar.getyPos()) + "/";
+    buffer = buffer + Double.toString(mCar.getxPos()) + "/";
+    buffer = buffer + Double.toString(mCar.getSpeed()) + "/";
+    buffer = buffer + Double.toString(mCar.getAcceleration()) + "/";
     setTime();
     buffer = buffer + Long.toString(mTimestamp) + "/";
     buffer = buffer + mOpMessage;

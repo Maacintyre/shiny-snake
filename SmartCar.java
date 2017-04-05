@@ -24,9 +24,9 @@ public class SmartCar extends BasicCar{
 	}
 
 	//Creates a car placed with locational data
-	SmartCar(long pID, String pModel, float pDirection, float pLongitude,
-	 float pLatitude) {
-		 super(pID, pModel, pDirection, pLongitude, pLatitude);
+	SmartCar(long pID, String pModel, double pDirection, double pyPos,
+	 double pxPos) {
+		 super(pID, pModel, pDirection, pyPos, pxPos);
 	}
 
 	/*smartCar(float pDirection, Location pLocation, float pLongitude,
